@@ -1,0 +1,67 @@
+.propertyHeader {
+    padding: 4px 8px;
+    color: gray;
+    border-bottom: 1px solid #D2D7D3;
+}
+
+.objects {
+    padding: 4px 8px;
+    border-bottom: 1px solid #eceff1;
+}
+
+.objectProperties {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.propertyContainer {
+    max-height: 85%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.propertyContainer::-webkit-scrollbar {
+    width: 5px;
+}
+
+
+.propertyContainer::-webkit-scrollbar-thumb {
+background-color: darkgrey;
+outline: 1px solid slategrey;
+}
+
+.propertyDivHeader {
+    display: flex;
+}
+
+.spacer {
+    width: 100%;
+}
+
+.headerSpacer {
+    width:20%
+}
+
+.deleteObjectBtn {
+    /* position: relative;
+    left: 85%;
+    height: 100%; */
+    position: sticky;
+    right: 0;
+}
+
+.dropdownChoices {
+    display: flex;
+}
+
+.dropdownChoicesItem {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.generateSchemabtn {
+    position: absolute;
+    right: 0;
+}
+

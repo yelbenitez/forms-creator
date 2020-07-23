@@ -1,0 +1,16 @@
+.libraryHeader {
+    padding: 4px 8px;
+    color: gray;
+    border-bottom: 1px solid #D2D7D3;
+}
+
+.objects {
+    padding: 4px 8px;
+    display: flex;
+    align-items: center;
+}
+
+
+.objects:hover {
+    background-color: #EEEEEE;
+}

@@ -1,0 +1,27 @@
+.backdrop {
+    margin: 100px;
+}
+
+.cardContent {
+    margin: 10px;
+}
+
+.modalHeader {
+    color: gray;
+    border-bottom: 1px solid #D2D7D3;
+    padding-bottom: 5px;
+}
+
+.objects {
+    padding: 4px 8px;
+    display: flex;
+    align-items: center;
+}
+
+.objects:hover {
+    background-color: #EEEEEE;
+}
+
+.objectsLabel {
+    cursor: default;
+}
